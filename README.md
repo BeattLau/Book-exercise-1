@@ -13,5 +13,3 @@ Users can view the list of books in the inventory.
 
 Remove Books:
 Users can remove books from the inventory by specifying the book's title.
-
-
