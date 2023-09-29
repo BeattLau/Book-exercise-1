@@ -1,5 +1,7 @@
 public class addBooks {
 
+
+
     public String getTitle() {
         return title;
     }
@@ -18,5 +20,13 @@ public class addBooks {
 
     String title;
     String author;
+
+    public void main(String[] args) {
+        addBooks AddBooks = new addBooks();
+        AddBooks.setTitle("Moby Dick");
+        AddBooks.setAuthor("Herman Melville");
+
+        System.out.println("Book added " + title + author);
+    }
 
 }
