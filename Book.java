@@ -8,7 +8,11 @@ public class Book {
 				for (int i = 0; i < books.length; i++) {						System.out.println(books[i].title + "by : " + books[i].author;
 				}
 			}
-
 		}
+
+		public void removeBook(List<Book> books, string bookTitle) {
+			books.removeIf(book -> book.title.equals(bookTitle));
+			System.out.println("Book removed: " + title);
+		{
 	}
 }
