@@ -5,7 +5,8 @@ public class Book {
 				System.out.println("No books here.");
 			} else {
 				System.out.println("List of books: ");
-				for (int i = 0; i < books.length; i++) {						System.out.println(books[i].title + "by : " + books[i].author;
+				for (int i = 0; i < books.length; i++) {
+					System.out.println(books[i].tile + "by: " + books[i].author);
 				}
 			}
 
