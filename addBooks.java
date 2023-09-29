@@ -26,7 +26,7 @@ public class addBooks {
         AddBooks.setTitle("Moby Dick");
         AddBooks.setAuthor("Herman Melville");
 
-        System.out.println("Book added " + title + author);
+        System.out.println(title + author + " added to inventory ");
     }
 
 }
